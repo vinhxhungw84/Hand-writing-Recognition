@@ -1,0 +1,86 @@
+
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.v
+
+Aug 01 12PM:13:48>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.v
+
+Aug 01 12PM:13:53>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.v
+
+Aug 01 12PM:13:56>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.v
+
+Aug 01 12PM:14:01>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.v
+
+Aug 01 12PM:18:44>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v.v
+
+Aug 01 12PM:27:17>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v.v
+
+Aug 01 12PM:27:23>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v.v
+
+Aug 01 12PM:27:30>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.v
+
+Aug 01 12PM:27:44>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v.v
+
+Aug 01 12PM:27:45>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v.v
+
+Aug 01 12PM:28:19>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.v
+
+Aug 01 12PM:28:32>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.v
+
+Aug 01 12PM:32:09>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.v
+
+Aug 01 12PM:32:11>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.v
+
+Aug 01 12PM:32:20>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.v
+
+Aug 01 12PM:32:21>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.v
+
+Aug 01 12PM:32:21>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

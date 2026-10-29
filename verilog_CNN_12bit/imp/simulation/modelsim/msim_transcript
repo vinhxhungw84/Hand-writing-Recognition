@@ -1,0 +1,228 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do cam_proj_run_msim_rtl_verilog.do
+# if ![file isdirectory cam_proj_iputf_libs] {
+# 	file mkdir cam_proj_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v_sim/pll_disp_v.vo"  
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:56:59 on Sep 07,2025
+# vlog -reportprogress 300 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v_sim/pll_disp_v.vo 
+# -- Compiling module pll_disp_v
+# 
+# Top level modules:
+# 	pll_disp_v
+# End time: 22:56:59 on Sep 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v_sim/pll_sdram_v.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:56:59 on Sep 07,2025
+# vlog -reportprogress 300 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v_sim/pll_sdram_v.vo 
+# -- Compiling module pll_sdram_v
+# 
+# Top level modules:
+# 	pll_sdram_v
+# End time: 22:56:59 on Sep 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:56:59 on Sep 07,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp" C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v.vo 
+# ** Error: (vlog-7) Failed to open design unit file "C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v.vo" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 22:56:59 on Sep 07,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./cam_proj_run_msim_rtl_verilog.do line 20
+# C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp {C:/intelFPGA_lite/Verilog-Ge..."
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/testbench.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:34 on Sep 07,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/testbench.v 
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 22:57:34 on Sep 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/addressRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:40 on Sep 07,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/addressRAM.v 
+# -- Compiling module addressRAM
+# 
+# Top level modules:
+# 	addressRAM
+# End time: 22:57:40 on Sep 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/border.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:40 on Sep 07,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/border.v 
+# -- Compiling module border
+# 
+# Top level modules:
+# 	border
+# End time: 22:57:40 on Sep 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:40 on Sep 07,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv.v 
+# -- Compiling module conv
+# 
+# Top level modules:
+# 	conv
+# End time: 22:57:40 on Sep 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv_TOP.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:40 on Sep 07,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv_TOP.v 
+# -- Compiling module conv_TOP
+# 
+# Top level modules:
+# 	conv_TOP
+# End time: 22:57:40 on Sep 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/database.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:40 on Sep 07,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/database.v 
+# -- Compiling module database
+# 
+# Top level modules:
+# 	database
+# End time: 22:57:40 on Sep 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/dense.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:40 on Sep 07,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/dense.v 
+# -- Compiling module dense
+# 
+# Top level modules:
+# 	dense
+# End time: 22:57:40 on Sep 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/maxpooling.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:40 on Sep 07,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/maxpooling.v 
+# -- Compiling module maxp
+# 
+# Top level modules:
+# 	maxp
+# End time: 22:57:40 on Sep 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:40 on Sep 07,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAM.v 
+# -- Compiling module RAM
+# 
+# Top level modules:
+# 	RAM
+# End time: 22:57:40 on Sep 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAMtoMEM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:40 on Sep 07,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAMtoMEM.v 
+# -- Compiling module memorywork
+# 
+# Top level modules:
+# 	memorywork
+# End time: 22:57:40 on Sep 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/result.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:40 on Sep 07,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/result.v 
+# -- Compiling module result
+# 
+# Top level modules:
+# 	result
+# End time: 22:57:40 on Sep 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/TOP.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:40 on Sep 07,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/TOP.v 
+# -- Compiling module TOP
+# 
+# Top level modules:
+# 	TOP
+# End time: 22:57:40 on Sep 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test
+# vsim work.test 
+# Start time: 22:57:48 on Sep 07,2025
+# Loading work.test
+# Loading work.TOP
+# Loading work.database
+# Loading work.conv_TOP
+# Loading work.memorywork
+# Loading work.addressRAM
+# Loading work.RAM
+# Loading work.border
+# Loading work.maxp
+# Loading work.dense
+# Loading work.result
+# Loading work.conv
+add wave -r /*
+run -all
+# Check case result
+# RESULT:  1
+# ** Note: $finish    : C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/testbench.v(49)
+#    Time: 4735150 ps  Iteration: 1  Instance: /test
+# 1
+# Break in Module test at C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/testbench.v line 49
+quit -sim
+# End time: 14:12:09 on Sep 08,2025, Elapsed time: 15:14:21
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/addressRAM.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:12:14 on Sep 08,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/addressRAM.v 
+# -- Compiling module addressRAM
+# 
+# Top level modules:
+# 	addressRAM
+# End time: 14:12:14 on Sep 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.test
+# vsim work.test 
+# Start time: 14:12:21 on Sep 08,2025
+# Loading work.test
+# Loading work.TOP
+# Loading work.database
+# Loading work.conv_TOP
+# Loading work.memorywork
+# Loading work.addressRAM
+# Loading work.RAM
+# Loading work.border
+# Loading work.maxp
+# Loading work.dense
+# Loading work.result
+# Loading work.conv
+# End time: 16:37:41 on Sep 08,2025, Elapsed time: 2:25:20
+# Errors: 0, Warnings: 0

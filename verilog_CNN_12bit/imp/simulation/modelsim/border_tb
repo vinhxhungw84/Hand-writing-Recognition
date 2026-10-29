@@ -1,0 +1,22 @@
+module border_tb();
+ reg clk, go;
+ reg [9:0] i;
+ reg [4:0] matrix;
+ wire [1:0] prov;
+ initial
+ begin
+ clk = 0;
+ forever #1 clk = ~clk;
+ end
+border BORDER(clk, go, i, matrix, prov);
+ initial
+ begin
+  go=0; //prov =0
+ repeat (10)@(negedge clk);
+  go =1;
+  matrix= 9; 
+i=matrix-1;
+ repeat (10)@(negedge clk);
+ i=matrix;
+ end
+ endmodule

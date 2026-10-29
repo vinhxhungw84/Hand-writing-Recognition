@@ -1,0 +1,48 @@
+transcript on
+if ![file isdirectory cam_proj_iputf_libs] {
+	file mkdir cam_proj_iputf_libs
+}
+
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+
+
+vlog "C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v_sim/pll_disp_v.vo"  
+vlog "C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v_sim/pll_sdram_v.vo"
+
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v.vo}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/sdram_controller.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/cam_config {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/cam_config/SCCB_interface.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/cam_config {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/cam_config/OV7670_config_rom.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/cam_config {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/cam_config/OV7670_config.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/cam_config {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/cam_config/camera_configure.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/cam_wrp.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/top {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/top/cam_proj_top.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/fifo_1024x16.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/fifo_big.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/gray_28x28 {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/gray_28x28/grayscale.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/TOP.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/result.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAMtoMEM.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAM.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/maxpooling.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/dense.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/database.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv_TOP.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/border.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/addressRAM.v}
+vlib pll_sdram_v
+vmap pll_sdram_v pll_sdram_v
+vlog -sv -work pll_sdram_v +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v/pll_sdram_v_0002.v}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/lcd {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/lcd/tft_ili9341_spi.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/lcd {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/lcd/tft_ili9341.sv}
+vlog -sv -work work +incdir+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/lcd {C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/lcd/hellosoc_top.sv}
+

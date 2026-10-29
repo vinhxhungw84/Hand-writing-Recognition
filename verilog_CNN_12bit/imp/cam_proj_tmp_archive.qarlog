@@ -1,0 +1,70 @@
+Quartus Prime Archive log --	C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/cam_proj_tmp_archive.qarlog
+
+Archive:	C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/cam_proj_tmp_archive.qar
+Date:		Wed Aug 13 16:51:17 2025
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/gray_28x28/grayscale.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/lcd/hellosoc_top.sv
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/lcd/tft_ili9341.sv
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/lcd/tft_ili9341_spi.sv
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAM.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAMtoMEM.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/TOP.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/addressRAM.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/border.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv_TOP.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/database.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/dense.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/maxpooling.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/result.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/cam_config/OV7670_config.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/cam_config/OV7670_config_rom.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/cam_config/SCCB_interface.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/cam_config/camera_configure.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/cam_config/camera_read.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/cam_wrp.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/fifo_1024x16.qip
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/fifo_1024x16.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/fifo_1024x16_bb.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/fifo_1024x16_inst.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/synt/sdram_controller.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/RAM_tb.sv
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/cam_proj.qpf
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/cam_proj.qsf
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/cam_proj_assignment_defaults.qdf
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/database_tb.sv
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/fifo_big.qip
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/fifo_big.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/fifo_big_bb.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/hellosoc_top_tb.sv
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.cmp
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.qip
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.sip
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.spd
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v/pll_disp_v_0002.qip
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v/pll_disp_v_0002.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v_sim/pll_disp_v.vo
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v.cmp
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v.qip
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v.sip
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v.spd
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v/pll_sdram_v_0002.qip
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v/pll_sdram_v_0002.v
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v_sim/pll_sdram_v.vo
+C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/top/cam_proj_top.v
+C:/intelfpga_lite/verilog-generator-of-neural-net-digit-detector-for-fpga-master/verilog/img_28x28_rgb565.hex
+	======= Total: 53 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed Aug 13 16:51:18 2025
+Source archive file:	C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/cam_proj_tmp_archive.qar
+Archive was extracted into	C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp_copy/
+		 - successfully.

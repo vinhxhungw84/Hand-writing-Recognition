@@ -1,0 +1,4 @@
+
+
+vlogan +v2k "C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v_sim/pll_disp_v.vo"  
+vlogan +v2k "C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v_sim/pll_sdram_v.vo"

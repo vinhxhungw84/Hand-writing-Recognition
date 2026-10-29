@@ -1,0 +1,35 @@
+ module maxp_tb();
+ parameter SIZE_1=11;
+ parameter SIZE_2=22;
+ parameter SIZE_3=33;
+ parameter SIZE_4=44;
+ parameter SIZE_address_pix=13;
+ reg clk,maxp_en;
+ wire  STOP;
+ reg [SIZE_address_pix-1:0] memstartp,memstartzap;
+ wire [SIZE_address_pix-1:0] read_addressp,write_addressp;
+ wire re,we;
+ reg signed [SIZE_1-1:0] qp;
+ wire  signed [SIZE_1-1:0] dp;
+ reg [4:0] matrix;
+ reg [9:0] matrix2;
+ initial
+ begin
+ clk = 0;
+ forever #1 clk = ~clk;
+end
+ maxp#(11,22,33,44,13)MAX_POLL
+ (clk,maxp_en,memstartp,memstartzap,read_addressp,write_addressp,re,we,qp,
+ dp,STOP,matrix2,matrix);
+ initial
+ begin
+  
+@(negedge clk);
+ matrix=2;
+ matrix2=4;
+  maxp_en=1;
+ qp=123;
+ memstartp=100;
+ memstartzap=200; 
+end
+ endmodule

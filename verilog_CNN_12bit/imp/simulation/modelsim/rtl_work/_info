@@ -1,0 +1,306 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/simulation/modelsim
+vaddressRAM
+!s110 1757315534
+!i10b 1
+!s100 Ud=^HVW]lZJDBYhX7;WdU2
+IWmA4EX?ILTKSLzl0mVc]F1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1753541536
+8C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/addressRAM.v
+FC:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/addressRAM.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1757315534.000000
+!s107 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/addressRAM.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/addressRAM.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+naddress@r@a@m
+vborder
+Z5 !s110 1757260660
+!i10b 1
+!s100 8lFb_hkQh1h5=cKJLN7N]1
+Ie6nADFnEXob10zjDcS:MG0
+R1
+R0
+Z6 w1753375396
+8C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/border.v
+FC:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/border.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z7 !s108 1757260660.000000
+!s107 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/border.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/border.v|
+!i113 1
+R3
+R4
+vconv
+R5
+!i10b 1
+!s100 79a>;iSMh>EN@gF>kla8]2
+IziUb0KPH?6h_LMBim3iZG1
+R1
+R0
+R6
+8C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv.v
+FC:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv.v|
+!i113 1
+R3
+R4
+vconv_TOP
+R5
+!i10b 1
+!s100 mB?CCfGQMUQXiC6Q3<?2K0
+ImjPHN61K[L:RNPViGDkl;0
+R1
+R0
+R6
+8C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv_TOP.v
+FC:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv_TOP.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv_TOP.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/conv_TOP.v|
+!i113 1
+R3
+R4
+nconv_@t@o@p
+vdatabase
+R5
+!i10b 1
+!s100 C?GOCa5JWE0WFN0d7mi@[2
+Ia`TSEj@ZT>T:bV>ie0d^l0
+R1
+R0
+w1753951865
+8C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/database.v
+FC:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/database.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/database.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/database.v|
+!i113 1
+R3
+R4
+vdense
+R5
+!i10b 1
+!s100 8lnB=e]1:35]0PfHz`6BR2
+IzkYzoho>Qg=S7nbFdDLAc1
+R1
+R0
+R6
+8C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/dense.v
+FC:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/dense.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/dense.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/dense.v|
+!i113 1
+R3
+R4
+vmaxp
+R5
+!i10b 1
+!s100 iFI27ndVAM:1i64X:Q3;c3
+IRaOZA7XJcWfG777aACg6e2
+R1
+R0
+w1753541530
+8C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/maxpooling.v
+FC:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/maxpooling.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/maxpooling.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/maxpooling.v|
+!i113 1
+R3
+R4
+vmemorywork
+R5
+!i10b 1
+!s100 6A8V>m=GAz[L?@MUfi]?L1
+I0=o;;XAc=>_1]759UWCo63
+R1
+R0
+R6
+8C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAMtoMEM.v
+FC:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAMtoMEM.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAMtoMEM.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAMtoMEM.v|
+!i113 1
+R3
+R4
+vpll_disp_v
+Z8 !s110 1757260619
+!i10b 1
+!s100 Ede?=ij9CLRU8jBE93EaP2
+IzzWMImEYIUijc5E??DR2D2
+R1
+R0
+w1754125140
+8C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v_sim/pll_disp_v.vo
+FC:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v_sim/pll_disp_v.vo
+Z9 L0 31
+R2
+r1
+!s85 0
+31
+Z10 !s108 1757260619.000000
+!s107 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v_sim/pll_disp_v.vo|
+!s90 -reportprogress|300|C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_disp_v_sim/pll_disp_v.vo|
+!i113 1
+R4
+vpll_sdram_v
+R8
+!i10b 1
+!s100 4eTOnQbIST`1e`4]ZV3R12
+I6:0CeKo8W4^0RJQ^k<k581
+R1
+R0
+w1753381772
+8C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v_sim/pll_sdram_v.vo
+FC:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v_sim/pll_sdram_v.vo
+R9
+R2
+r1
+!s85 0
+31
+R10
+!s107 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v_sim/pll_sdram_v.vo|
+!s90 -reportprogress|300|C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/imp/pll_sdram_v_sim/pll_sdram_v.vo|
+!i113 1
+R4
+vRAM
+R5
+!i10b 1
+!s100 f4EP3j0KeY5WXLGe`;PR03
+IjD5bZ7B>IYK2Oo^H[;BV70
+R1
+R0
+w1753531449
+8C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAM.v
+FC:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAM.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAM.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/RAM.v|
+!i113 1
+R3
+R4
+n@r@a@m
+vresult
+R5
+!i10b 1
+!s100 EoA]da=T[gcYbzk9eE^_Y2
+IL=z2LijWj?51Y7d2_5k6b2
+R1
+R0
+R6
+8C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/result.v
+FC:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/result.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/result.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/result.v|
+!i113 1
+R3
+R4
+vtest
+!s110 1757260654
+!i10b 1
+!s100 S[:g4`UO<i]RRL:Vo6[[70
+IzZ8L<XRClhidMmJdI6HkP3
+R1
+R0
+w1753452948
+8C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/testbench.v
+FC:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/testbench.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1757260654.000000
+!s107 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/testbench.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/testbench.v|
+!i113 1
+R3
+R4
+vTOP
+R5
+!i10b 1
+!s100 T>B[M[6Z?@9Mo6P?[Wk@j3
+IN:^;`EL1i3^=UmXKREm912
+R1
+R0
+R6
+8C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/TOP.v
+FC:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/TOP.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/TOP.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA_lite/Verilog-Generator-of-Neural-Net-Digit-Detector-for-FPGA-master/verilog/code/neuroset/TOP.v|
+!i113 1
+R3
+R4
+n@t@o@p
